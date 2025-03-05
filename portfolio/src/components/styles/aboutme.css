@@ -1,0 +1,131 @@
+.about-section-main-container{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 50px;
+}
+
+.about-section-right{
+    width: 40%;
+}
+
+.about-section-left{
+    width: 55%;
+}
+
+.about-section-about-text{
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 30px;
+    width: fit-content;
+    background: -webkit-linear-gradient(0deg, #FC466B, #3F5EFB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-section-work-text{
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 30px;
+    width: fit-content;
+    background: -webkit-linear-gradient(0deg, #FC466B, #3F5EFB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-section-about-answer{
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    /* line-height: 1.5; */
+    color: #8d8d8d;
+    height: fit-content;
+    margin-top: 20px;
+}
+
+.about-section-secret-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+}
+
+.about-section-secret-text{
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    width: fit-content;
+    background: -webkit-linear-gradient(0deg, #FC466B, #3F5EFB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 25px;
+}
+
+.about-section-secret-answer{
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 30px;
+    width: fit-content;
+    background: -webkit-linear-gradient(0deg, #FC466B, #3F5EFB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10px;
+}
+
+.about-section-time-line{
+    margin-top: 25px;
+}
+
+.secret-section-main-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secret-section-main-container img{
+    width: 100%;
+    height: auto;
+}
+
+.secret-section-top-text{
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 130px;
+    width: fit-content;
+    background: -webkit-linear-gradient(0deg, #FF3800, #E34234);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 40px;
+}
+
+.secret-section-text{
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    width: fit-content;
+    margin-top: 20px;
+    color: #8d8d8d;
+
+    padding: 0px 40px;
+}
+
+.secret-section-bottom-text{
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 130px;
+    width: fit-content;
+    background: -webkit-linear-gradient(0deg, #FF3800, #E34234);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 40px;
+}

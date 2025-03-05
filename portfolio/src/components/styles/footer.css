@@ -1,0 +1,47 @@
+.contact-section {
+    text-align: center;
+    padding: 40px 120px;
+    background: linear-gradient(180deg, #000016, #09012b);
+    color: #ffffff;
+  }
+  
+  .contact-title {
+    font-size: 36px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #FC466B, #3F5EFB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .contact-description {
+    font-family: "Inria Sans", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    margin: 20px 0;
+  }
+  
+  .contact-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .email-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .email-text {
+    font-size: 20px;
+  }
+  
+  .email-link {
+    background: linear-gradient(90deg, #3F5EFB, #FC466B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-style: italic;
+  }
+  

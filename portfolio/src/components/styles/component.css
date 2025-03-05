@@ -1,0 +1,62 @@
+.skill-till-container{
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    width: fit-content;
+    padding: 7px 10px;
+    border-radius: 11px;
+
+    background: linear-gradient(90deg, #2575FC, #6A11CB);
+}
+
+.time-line-container{
+    width: 100%;
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.time-line-right{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 30px;
+}
+
+.time-line-time-text{
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    color: #fff;
+}
+
+.time-line-position-text{
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color: #fff;
+}
+
+.time-line-skills-group{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.time-line-left img{
+    height: 16px;
+    width: 16px;
+    position: relative;
+    top: -95%;
+    right: 50%;
+
+}
+
+.time-line-horizontal-line{
+    height: 100%;
+    width: 1px;
+    background-color: white;
+}
