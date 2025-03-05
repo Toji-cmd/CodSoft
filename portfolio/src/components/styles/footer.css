@@ -1,11 +1,12 @@
 .contact-section {
     text-align: center;
     padding: 40px 120px;
-    background: linear-gradient(180deg, #000016, #09012b);
+    background: linear-gradient(180deg, #000, #09012b);
     color: #ffffff;
   }
   
   .contact-title {
+    font-family: "Inria Sans", sans-serif;
     font-size: 36px;
     font-weight: bold;
     background: linear-gradient(90deg, #FC466B, #3F5EFB);
