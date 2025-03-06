@@ -70,3 +70,30 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media only screen and (max-width: 768px){
+    .project-section-projects-group {
+        flex-direction: column;
+    }
+
+    .project-section-btn {
+        width: 100%;
+        height: 40px;
+        border-radius: 12px;
+    }
+    .project-section-btn div {
+        transform: rotate(0deg);
+        text-align: center;
+    }
+
+    .project-section-project-card{
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+
+    }
+    .project-section-project-cards{
+        width: 100%;
+    }
+
+}

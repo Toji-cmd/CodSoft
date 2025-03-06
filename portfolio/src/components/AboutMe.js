@@ -1,7 +1,22 @@
 import TimeLine from "./TimeLine";
 import secretBorder from "../assets/secretborder.png";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 export default function AboutMe() {
+  const [visiable, setVisiable] = useState(false);
+  const secretRef = useRef(null);
+
+  useEffect(
+    () => {
+      if(visiable){
+        secretRef.current.scrollIntoView({ behavior: "smooth" });
+      }
+    },[visiable]
+  );
+
+  const scrollToSection = () => {
+    setVisiable(true);
+  };
+
   const gameDeveloperSkills = [
     "FireBase",
     "Unity 3D",
@@ -30,7 +45,6 @@ export default function AboutMe() {
     "Android Studio",
   ];
 
-  const [visiable, setVisiable] = useState(false);
 
   return (
     <div className="about-section">
@@ -70,7 +84,7 @@ export default function AboutMe() {
             <div
               className="about-section-secret-answer"
               onClick={() => {
-                setVisiable(true);
+                scrollToSection();
               }}
             >
               Click Here
@@ -103,7 +117,7 @@ export default function AboutMe() {
         </div>
       </div>
       {visiable ? (
-        <div className="secret-section-main-container">
+        <div ref={secretRef} id="secret" className="secret-section-main-container">
           <img src={secretBorder} alt="bar"></img>
           <div className="secret-section-top-text">SECRET</div>
           <div className="secret-section-text">

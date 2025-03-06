@@ -129,3 +129,41 @@
     -webkit-text-fill-color: transparent;
     margin-bottom: 40px;
 }
+
+@media only screen and (max-width: 768px){
+    .about-section-main-container{
+        flex-direction: column;
+    }
+
+    .about-section-left{
+        width: 100%;
+    }
+
+    .about-section-right{
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .about-section-about-answer{
+        text-align: center;
+    }
+
+    .secret-section-main-container{
+        overflow-x: hidden;
+    }
+
+    .secret-section-top-text{
+        font-size: 80px;
+    }
+
+    .secret-section-text{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .secret-section-bottom-text{
+        margin-top: 40px;
+        font-size: 40px;
+        text-align: center;
+    }
+}

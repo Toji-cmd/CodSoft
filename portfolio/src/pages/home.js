@@ -1,7 +1,6 @@
 import HeroSection from "../components/HeroSection";
 import AboutMe from "../components/AboutMe";
 import ProjectSection from "../components/ProjectsSection";
-import FooterSection from "../components/Footer";
 
 import "../components/styles/hero.css";
 import '../components/styles/aboutme.css';
@@ -14,7 +13,6 @@ export default function HomePage() {
       <HeroSection />
       <AboutMe />
       <ProjectSection />
-      {/* <FooterSection /> */}
     </div>
   );
 }
